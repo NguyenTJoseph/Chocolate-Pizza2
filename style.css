@@ -108,20 +108,21 @@ hr {
     background-image: url("./lab-assets/list-bg.png");
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    height: 500px;
-} #left {
-    float: left;
-}  #right {
-    float: right;
-}
+    height: 200%;
+    width: 100%;
+} 
+
 label {
     font-size: x-large;
     font-family: 'Sriracha', cursive;
     color: rgb(143, 143, 143);
 } #uls div {
-    padding: 10px;
+    padding: 20px 80px 40px 10px;
 } #uls {
+    display: flex;
     padding-left: 90px;
-    padding-right: 90px;
+    width: 90%;
+} #right {
+    float: right;
 }
 
